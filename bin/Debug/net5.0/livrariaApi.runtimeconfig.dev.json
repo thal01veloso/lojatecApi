@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/veloso/.dotnet/store/|arch|/|tfm|",
+      "/home/veloso/.nuget/packages"
+    ]
+  }
+}
