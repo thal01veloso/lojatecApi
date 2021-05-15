@@ -18,6 +18,8 @@ namespace livrariaApi.Entity
         [Column("Preco")]
         public float Preco { get; set; }
         [Column("Qtd")]
-        public int quantidade{get;set;}
+        public int Quantidade{get;set;}
+        [Column("cor")]
+        public string Cor{get;set;}
     }
 }
