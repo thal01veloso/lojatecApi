@@ -8,7 +8,7 @@ using livrariaApi.Context;
 namespace livrariaApi.Migrations
 {
     [DbContext(typeof(ProdutoContext))]
-    [Migration("20210515191514_Inicial")]
+    [Migration("20210515193719_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
