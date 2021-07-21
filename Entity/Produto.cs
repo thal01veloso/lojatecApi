@@ -4,22 +4,25 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace livrariaApi.Entity
 {
     [Table("Produtos")]
-    public class Produto
+        public class ProdutoCesta
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("id")]
-        public int Id { get; set; }
-        [Column("Nome")]
-        public string Nome { get; set; }
-        [Column("Descricao")]
+        [Column("Id")]
+        public int ProdutoId { get; set; }
+        [Column("NomeProduto")]
+        public string NomeProduto { get; set; }
+        [Column("MarcaProduto")]
+        public string MarcaProduto { get; set; }
+        [Column("Modelo")]
+        public string Modelo { get; set; }
 
-        public string Descricao { get; set; }
-        [Column("Preco")]
-        public float Preco { get; set; }
-        [Column("Qtd")]
-        public int Quantidade{get;set;}
-        [Column("cor")]
-        public string Cor{get;set;}
+        [Column("PlacaMae")]
+        public string PlacaMae { get; set; }
+        [Column("MemoriaRam")]
+        public int MemoriaRam { get; set; }
+        [Column("HD")]
+        public int HD { get; set; }
+
     }
 }

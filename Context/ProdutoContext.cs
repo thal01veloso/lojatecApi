@@ -9,7 +9,7 @@ namespace livrariaApi.Context
         {
 
         }
-        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<ProdutoCesta> ProdutosCesta { get; set; }
         
     }
 }

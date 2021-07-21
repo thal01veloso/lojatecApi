@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/veloso/Desktop/livrariaApi/livrariaApi.csproj": {}
+    "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj": {}
   },
   "projects": {
-    "/home/veloso/Desktop/livrariaApi/livrariaApi.csproj": {
+    "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/veloso/Desktop/livrariaApi/livrariaApi.csproj",
+        "projectUniqueName": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
         "projectName": "livrariaApi",
-        "projectPath": "/home/veloso/Desktop/livrariaApi/livrariaApi.csproj",
-        "packagesPath": "/home/veloso/.nuget/packages/",
-        "outputPath": "/home/veloso/Desktop/livrariaApi/obj/",
+        "projectPath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
+        "packagesPath": "C:\\Users\\ThalesdeSouzaVeloso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/veloso/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ThalesdeSouzaVeloso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

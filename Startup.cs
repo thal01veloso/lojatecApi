@@ -23,7 +23,7 @@ namespace livrariaApi
         {
 
             services.AddControllers();
-            services.AddDbContext<ProdutoContext>(opt => opt.UseMySql(Configuration.
+            services.AddDbContext<ProdutoContext>(opt => opt.UseSqlServer(Configuration.
                 GetConnectionString("connectionString")));
             services.AddSwaggerGen(c =>
             {
