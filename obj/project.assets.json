@@ -7979,9 +7979,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
-      "projectName": "livrariaApi",
-      "projectPath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
+      "projectUniqueName": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\lojainfoApi.csproj",
+      "projectName": "lojainfoApi",
+      "projectPath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\lojainfoApi.csproj",
       "packagesPath": "C:\\Users\\ThalesdeSouzaVeloso\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\obj\\",
       "projectStyle": "PackageReference",

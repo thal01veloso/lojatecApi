@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
+  "FilePath": "c:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\lojainfoApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "livrariaApi",
+  "RootNamespace": "lojainfoApi",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

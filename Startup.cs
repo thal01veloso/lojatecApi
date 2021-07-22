@@ -37,7 +37,7 @@ namespace livrariaApi
                 GetConnectionString("connectionString")));
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "livrariaApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "lojaInfoapi", Version = "v1" });
             });
         }
 

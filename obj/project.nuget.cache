@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vNfVlUGOaBojnXt+YiFSeUa/+HC0wMjQOAL4l1xp0uXlqQIx+5OQ5AhHMNVrHGH4LYgpmvpqHP7+UJQ8gymXaw==",
+  "dgSpecHash": "m5GAtFPKbxv6Yaj9wgRpRki9ZRS5KLfbGPxoQLyXGv7HxHrGDY/z3nF1bZFtBPTrX6KCVYZtOoMulDJzzG86UA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\livrariaApi.csproj",
+  "projectFilePath": "C:\\Users\\ThalesdeSouzaVeloso\\source\\repos\\thal01veloso\\livrariaApi\\lojainfoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ThalesdeSouzaVeloso\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\ThalesdeSouzaVeloso\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
