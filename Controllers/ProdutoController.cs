@@ -5,11 +5,13 @@ using livrariaApi.Entity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace livrariaApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    
     public class ProdutoController : ControllerBase
     {
         private readonly ProdutoContext _context;

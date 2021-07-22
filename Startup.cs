@@ -21,6 +21,16 @@ namespace livrariaApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+    {
+        options.AddPolicy(
+            name: "AllowOrigin",
+            builder =>{
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+            });
+    });
 
             services.AddControllers();
             services.AddDbContext<ProdutoContext>(opt => opt.UseSqlServer(Configuration.
@@ -42,7 +52,9 @@ namespace livrariaApi
             }
 
             app.UseHttpsRedirection();
-
+            
+            app.UseCors("AllowOrigin");
+            app.UseHttpsRedirection(); 
             app.UseRouting();
 
             app.UseAuthorization();

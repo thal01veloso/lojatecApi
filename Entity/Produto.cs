@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace livrariaApi.Entity
 {
     [Table("Produtos")]
+    
         public class ProdutoCesta
     {
         [Key]
